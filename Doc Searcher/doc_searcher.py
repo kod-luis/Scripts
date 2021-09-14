@@ -11,7 +11,7 @@ print('-='*15)
 for i, f in enumerate(menu):
     print(f'[ {i+1} ] - {f.upper()}')
 opt = '0'
-while not type(opt) == int or int(opt) not in range(1, len(menu)+1):
+while type(opt) != int or int(opt) not in range(1, len(menu)+1):
     print('-'*30)
     try:
         opt = int(input('Opção: '))
