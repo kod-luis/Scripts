@@ -1,7 +1,7 @@
 # Scripts
 * _**Doc Searcher**_
 
-  A script that lists every file starting at the script's location within the chosen type.
+  A script that lists every file (even the ones inside folders and subfolders) starting at the script's location within the chosen type.
 
 * _**Info PC Local**_
 
